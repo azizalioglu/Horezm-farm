@@ -1,0 +1,20 @@
+# HOREZM v1.0 — Avtopilot dizayni
+
+## Hozir ishlaydigan imkoniyatlar
+- Tanlangan o‘yin skrinshotidan ML Kit OCR orqali matnni ajratish.
+- Hisob kuchi va 3 000 000 maqsadiga yetish foizini ko‘rsatish.
+- Accessibility Service yoqilgan bo‘lsa, RoK oynasidagi aniq ruxsat etilgan menyu nomiga bir martalik navigatsiya qilish.
+- Navigatsiya buyrug‘i faqat hozirgi accessibility daraxti RoK paketiga tegishli ekanligi tekshirilganda bajariladi; boshqa oynada yoki daraxt topilmasa buyruq bekor qilinadi.
+
+## Avtopilotning xavfsiz chegaralari
+Bu versiya to‘liq mustaqil o‘yin bot emas. U o‘yin ichidagi xarid, gem sarflash, resurs sarflash, qurilish/yangilashni boshlash, qo‘shin tayyorlash, davolash, barbar hujumi, yurish yuborish yoki PvP jangini avtomatik bajarmaydi. Bunday harakatlar o‘yin qoidalari va hisob xavfsizligiga ta’sir qilishi mumkin; foydalanuvchi tekshiruvisiz bajarilmaydi.
+
+## Keyingi ishlab chiqish bosqichlari
+1. OCR natijasini ekran turlariga ajratish: shahar, bino, qo‘shin, shifoxona, xarita.
+2. Har bir topilgan ma’lumotga ishonch darajasini qo‘shish; noaniq natijada hech qanday harakat qilmaslik.
+3. Vazifalar rejasini tuzish: navbat bo‘shligini eslatish, resurs va shifoxona holatini ko‘rsatish, xavfsiz navigatsiya.
+4. Har qanday resurs sarflaydigan yoki jangga olib keladigan amalni alohida foydalanuvchi tasdig‘iga bog‘lash.
+5. Harakatdan keyin yangi skrinshot/OCR bilan natijani tekshirish; xato yoki kutilmagan ekran bo‘lsa to‘xtash.
+
+## Build
+Android Studio loyihani ochib Gradle Sync va Build APK(s) bajarish kerak. Ushbu arxivda Gradle Wrapper yo‘q; build natijasi hali Android qurilmada tasdiqlanmagan.

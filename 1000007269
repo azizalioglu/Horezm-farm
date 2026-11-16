@@ -1,0 +1,27 @@
+# HOREZM RoK Assistant v1.0
+
+Android Studio source project for Samsung Galaxy A56 / Android.
+
+## Build
+1. Extract this ZIP.
+2. Open `HOREZM_RoK_Assistant` in Android Studio.
+3. Wait for Gradle Sync.
+4. Select the `app` run configuration and build an APK.
+5. Install on the phone. Enable the HOREZM Accessibility service only if you understand and accept its permissions.
+
+## Current functions
+- Rise of Kingdoms screenshot OCR using ML Kit.
+- Power goal progress display (default 1,950,000 -> 3,000,000).
+- One-shot, exact-label navigation inside a verified RoK accessibility window.
+- CH17 profile display.
+
+## Limits
+This is an autonomous assistant framework, not an unattended game-playing bot. It does not automatically spend gems/resources, purchase, start upgrades/training/healing, attack barbarians, dispatch marches, or fight PvP. These actions remain manual/user-confirmed in future development. Never use it to bypass game protections or anti-cheat systems; check the game's current rules before enabling automation.
+
+The source archive has not been built or device-tested in this environment. Build verification must be completed in Android Studio.
+
+## GitHub Actions orqali APK olish
+1. Shu papkadagi fayllarni GitHub'dagi yangi repozitoriyaga yuklang (main branch).
+2. Repozitoriyada **Actions** bo‘limiga kiring va **Build APK** ishini kuting (taxminan 5–10 daqiqa).
+3. Tugagach, ishning pastki qismidagi **Artifacts** bo‘limidan `HOREZM-RoK-Assistant-debug` faylini yuklab oling.
+4. ZIP ichidagi `.apk` faylini telefonga o‘rnating (noma’lum manbalardan o‘rnatishga ruxsat kerak bo‘ladi).
